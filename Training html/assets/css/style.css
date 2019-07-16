@@ -1,0 +1,92 @@
+body {
+  padding: 10px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login .panel-heading {
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background-image: none;
+}
+.bank-button {
+  background-color: #0388a6;
+  color: #ffff;
+}
+.btn-full {
+  width: 100%;
+}
+/* .bank-navbar a{
+    color: #ffff !important;
+}
+.color-bank a{
+    color: #0388a6 !important;
+} */
+.bank-navbar {
+  background-color: #0388a6;
+  background-image: none;
+}
+.navbar-default .navbar-brand {
+  color:#ddd;
+}
+.navbar-default .navbar-brand:hover {
+  color: #0388a6;
+}
+.navbar-default .navbar-brand:focus {
+  color: white !important;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ddd;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #0388a6;
+  color: #0388a6;
+  color: #fff;
+}
+.navbar-default .dropdown.open .dropdown-toggle {
+  background-color: #0388a6 !important;
+  background-image: none;
+  color: #fff !important;
+}
+.header-intro h1{
+  color:#0388a6;
+  font-size:20px;
+  margin-bottom: 5px;
+  margin-top:5px;
+}
+.panel-heading .btn {
+  position: absolute;
+  right:20px;
+  top:5px;
+}
+@media only screen and (min-width: 1000px){
+  .form-group label{
+    width:150px;
+  }
+  .form-group input{
+    width:400px;
+    display: inline-block;
+  }
+
+}
+@media only screen and (max-width: 767px){
+  
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    color:#ddd;
+  }
+  .navbar-default .navbar-toggle .icon-bar{
+    background-color:#ddd;
+  }
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color:#00728c;
+  }
+  
+}
+
