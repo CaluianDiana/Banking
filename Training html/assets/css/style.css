@@ -66,15 +66,51 @@ body {
   right:20px;
   top:5px;
 }
+
+.form-group .checkbox{
+  display: inline;
+  text-align:left;
+  margin:0;
+}
+.form-group .checkbox input{
+  position:relative;
+  display:inline-block;
+  width: auto;
+  margin:0;
+}
+
+.trans-form .form-group{
+  display: inline-block;
+  margin-right:20px;
+}
+.trans-form .form-group label{
+  width:auto;
+  display: inline-block;
+}
+.trans-form .form-group input{
+  width:auto;
+  display: inline-block;
+  margin-left:15px;
+  
+}
+.trans-button{
+  background-color: #0388a6;
+  color: #ffff;
+  margin-top:-5px;
+}
 @media only screen and (min-width: 1000px){
   .form-group label{
     width:150px;
   }
   .form-group input{
-    width:400px;
+    width:300px;
     display: inline-block;
   }
-
+  .form-group select{
+    width:300px;
+    display: inline-block;
+  }
+ 
 }
 @media only screen and (max-width: 767px){
   
@@ -86,6 +122,10 @@ body {
   }
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
     background-color:#00728c;
+  }
+  .form-group .checkbox{
+    display: block;
+    margin:5px 0;
   }
   
 }
