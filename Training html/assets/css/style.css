@@ -101,6 +101,21 @@ body {
 .card-buttons a:nth-child(2){
 margin-right: 27px;
 }
+.index-buttons a:nth-child(2){
+  margin-right: 27px;
+  }
+.index-buttons a{
+  margin-top:15px;
+}
+.a-buttons{
+  margin-bottom: 10px;
+}
+.topintro-btn a:nth-child(2){
+  margin-right: 27px;
+}
+.intro-panels{
+  text-align: center;
+}
 @media only screen and (min-width: 768px) {
   .form-group label {
     width: 150px;
@@ -122,6 +137,7 @@ margin-right: 27px;
     width:100%;
   }
 }
+ 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .trans-form .form-group {
     display: inline-block;
