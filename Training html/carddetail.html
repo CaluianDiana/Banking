@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AccountDetail</title>
+    <title>cardDetail</title>
 
 
 
@@ -57,50 +57,58 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h2 class="panel-title">Account detail</h2>
+                        <h2 class="panel-title">Card Number</h2>
 
                     </div>
                     <div class="panel-body">
                         <form role="form">
                             <div class="form-group">
-                                <label for="AccountType">Account Type</label>
-                                <select class="form-control" name="AccountType" disabled>
-                                    <option>Credit</option>
-                                    <option>Debit</option>
+                                <label for="CardType">Card Type</label>
+                                <select class="form-control" name="CardType" disabled>
+                                    <option>Type 1</option>
+                                    <option>Type 2</option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="Balance">Balance</label>
-                                <input class="form-control" disabled placeholder="Balance" name="Balance" type="number"
+                                <label for="FirstName">First Name</label>
+                                <input class="form-control" disabled placeholder="First Name" name="FirstName" type="text"
                                     autofocus="">
                             </div>
                             <div class="form-group">
-                                <label for="IBAN">IBAN</label>
-                                <input class="form-control" disabled placeholder="IBAN" name="IBAN" type="text"
+                                <label for="LastName">Last Name</label>
+                                <input class="form-control" disabled placeholder="Last Name" name="LastName" type="text"
                                     autofocus="">
                             </div>
                             <div class="form-group">
-                                <label for="Alias">Alias</label>
-                                <input class="form-control" placeholder="Main account" name="Alias" type="number"
+                                <label for="cvv">CVV</label>
+                                <input class="form-control" disabled placeholder="CVV" name="cvv" type="number"
                                     autofocus="">
                             </div>
                             <div class="form-group">
-                                <label for="createdon">Created On</label>
-                                <input class="form-control" disabled placeholder="Created On" name="createdon"
-                                    type="text" autofocus="">
+                                <label for="cardnumber">Card number</label>
+                                <input class="form-control" disabled  placeholder="Number" name="cardnumber" type="number"
+                                    autofocus="">
+                            </div>
+                            
+                        
+                            <div class="form-group">
+                                <label for="expireDate">Initial Amount</label>
+                                <input class="form-control"  disabled placeholder="01/01/2000" name="expireDate"
+                                    type="number" value="">
                             </div>
                             <div class="form-group">
-                                <label for="Currency">Currency</label>
-                                <input class="form-control" disabled placeholder="Currency" name="Currency"
-                                    type="text" value="">
-                            </div>
-                            <div class="form-group">
+                                    <label for="contactless">Contactless</label>
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="no" name="contactless">
+                                    </div>
+                                </div>
+                                <div class="form-group">
                                     <label for="closed">Closed</label>
                                     <div class="checkbox">
                                         <input type="checkbox" value="no" name="closed">
                                     </div>
                                 </div>
-                            
+
                             <button class="btn btn-default bank-button">Save</button>
 
                     </div>
